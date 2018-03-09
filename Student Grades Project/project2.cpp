@@ -2,59 +2,10 @@
 //Jack Martin
 //CPSC 121 Project #1
 // 
-//Psuedo code
-//
-//create function prototypes for the 8 functions
-//these 8 functions include
-//- display menu X
-//- get user input X 
-//- read data from file/store data in arrays X 
-//- determine letter grade for each student based on their grades stored in arrays X
-//- output results to screen X
-//- calculate highest class score X
-//- find duplicate records X
-//- record class' grades and student names to a new text file X
-//
-//
-//declare constant int scores = 6
-//
-//declare variables and arrays
-//string names[], string scores[], char grades[], string inputname, string gradecalc[]
-//
-//open file to extract data
-//read data into files ignoring commas.
-//store the names into the name[] array
-//store the scores into the scores array
-//
-//if file fails to open then display and error message and exit program
-//
-//calculate the scores each student got. (add all together to get a total score)
-//then assign a letter grade to each of these scores and assign that letter to index of array
-//
-//do while loop to create a menu for the user.
-//
-//make the menu use the 'switch statement'
-//user has 5 choices: h,a,s,g,q
-//
-//'h': diplay all student names, scores, and letter grades on the screen
-//use a for loop to cycle through the index of each array and display on screen
-//
-//
-//'a': Display the student name with highest overall score in the class
-//compare the total scores with eachother until the highest one is found, then display the student who had that highest score.
-//
-//'s': search by student name to display only their respective scores
-//allow user to type a student name
-//then use an if statement to match the student name with their respective array index and output their scores.
-//
-//'g': create a text file (StudentGrades.txt) which outputs the student names and their letter grades to a .txt file
-//use filestream to create a txt file and loop through the array indexes to write data to that file with student names and letter grades
-//
-//'q': allows the user to exit the loop with exit() function
-//will make while loop false
-//
-//close program
-
+// This program will read data from a text file that contains information about students ( name and grades on assigments )
+// user will be able to determine the students overall class grade, display the student's names and their overall course grade
+// calculate the highest score in the class, find duplicate records in the arrays, as well as store all of the collected information
+// into a new text file.
 
 #include <iostream>
 #include <string>
